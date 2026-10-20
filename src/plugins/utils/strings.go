@@ -4,7 +4,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ncuhome/cato/generated"
+	"github.com/NCUnix/cato/generated"
 )
 
 func GetStringsMapper(mapper generated.FieldMapper) func(s []string) string {

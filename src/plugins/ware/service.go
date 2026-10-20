@@ -8,12 +8,12 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/ncuhome/cato/config"
-	"github.com/ncuhome/cato/src/plugins/common"
-	"github.com/ncuhome/cato/src/plugins/models"
-	"github.com/ncuhome/cato/src/plugins/models/packs"
-	"github.com/ncuhome/cato/src/plugins/tray"
-	"github.com/ncuhome/cato/src/plugins/utils"
+	"github.com/NCUnix/cato/config"
+	"github.com/NCUnix/cato/src/plugins/common"
+	"github.com/NCUnix/cato/src/plugins/models"
+	"github.com/NCUnix/cato/src/plugins/models/packs"
+	"github.com/NCUnix/cato/src/plugins/tray"
+	"github.com/NCUnix/cato/src/plugins/utils"
 )
 
 type ServiceWare struct {

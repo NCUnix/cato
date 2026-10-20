@@ -11,9 +11,9 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/ncuhome/cato/src/plugins/common"
-	"github.com/ncuhome/cato/src/plugins/flags"
-	"github.com/ncuhome/cato/src/plugins/ware"
+	"github.com/NCUnix/cato/src/plugins/common"
+	"github.com/NCUnix/cato/src/plugins/flags"
+	"github.com/NCUnix/cato/src/plugins/ware"
 )
 
 type CatoGenerator struct {

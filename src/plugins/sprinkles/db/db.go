@@ -4,11 +4,11 @@ import (
 	"github.com/Masterminds/squirrel"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/ncuhome/cato/config"
-	"github.com/ncuhome/cato/generated"
-	"github.com/ncuhome/cato/src/plugins/common"
-	"github.com/ncuhome/cato/src/plugins/models/packs"
-	"github.com/ncuhome/cato/src/plugins/sprinkles"
+	"github.com/NCUnix/cato/config"
+	"github.com/NCUnix/cato/generated"
+	"github.com/NCUnix/cato/src/plugins/common"
+	"github.com/NCUnix/cato/src/plugins/models/packs"
+	"github.com/NCUnix/cato/src/plugins/sprinkles"
 )
 
 func init() {

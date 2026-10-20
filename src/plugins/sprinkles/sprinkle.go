@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/ncuhome/cato/src/plugins/common"
+	"github.com/NCUnix/cato/src/plugins/common"
 )
 
 type Sprinkle interface {

@@ -1,8 +1,8 @@
 # Cato
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/NCUHOME/cato/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/NCUHOME/cato)](https://github.com/NCUHOME/cato/issues)
-[![GitHub stars](https://img.shields.io/github/stars/NCUHOME/cato)](https://github.com/NCUHOME/cato/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/NCUnix/cato/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/NCUnix/cato)](https://github.com/NCUnix/cato/issues)
+[![GitHub stars](https://img.shields.io/github/stars/NCUnix/cato)](https://github.com/NCUnix/cato/stargazers)
 
 English | [中文](./README_CN.md)
 
@@ -36,7 +36,7 @@ Cato is a protobuf-driven code generator for Go server projects. It keeps storag
 ### Install the Plugin
 
 ```sh
-go install github.com/ncuhome/cato/cmd/protoc-gen-cato@latest
+go install github.com/NCUnix/cato/cmd/protoc-gen-cato@latest
 ```
 
 Or from this repository:
@@ -48,7 +48,7 @@ make install
 If your generated project imports Cato runtime helpers, add the module dependency there as well:
 
 ```sh
-go get github.com/ncuhome/cato@latest
+go get github.com/NCUnix/cato@latest
 ```
 
 ### Make the Option Protos Available
@@ -222,7 +222,7 @@ config/templates/      code generation templates
 
 ## Example Project
 
-For a fuller example of how these options are used in practice, see [cato-example-bms](https://github.com/NCUHOME/cato-example-bms/tree/main/proto).
+For a fuller example of how these options are used in practice, see [cato-example-bms](https://github.com/NCUnix/cato-example-bms/tree/main/proto).
 
 ## Roadmap
 

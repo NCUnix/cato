@@ -1,6 +1,6 @@
 package packs
 
-import "github.com/ncuhome/cato/src/plugins/models"
+import "github.com/NCUnix/cato/src/plugins/models"
 
 type FieldPack struct {
 	*models.Field

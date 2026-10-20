@@ -1,4 +1,4 @@
-module github.com/ncuhome/cato
+module github.com/NCUnix/cato
 
 go 1.24.0
 

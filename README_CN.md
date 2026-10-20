@@ -1,8 +1,8 @@
 # Cato
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/NCUHOME/cato/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/NCUHOME/cato)](https://github.com/NCUHOME/cato/issues)
-[![GitHub stars](https://img.shields.io/github/stars/NCUHOME/cato)](https://github.com/NCUHOME/cato/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/NCUnix/cato/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/NCUnix/cato)](https://github.com/NCUnix/cato/issues)
+[![GitHub stars](https://img.shields.io/github/stars/NCUnix/cato)](https://github.com/NCUnix/cato/stargazers)
 
 [English](./README.md) | 中文
 
@@ -36,7 +36,7 @@ Cato 是一个面向 Go 服务端项目的 protobuf 驱动代码生成器。你�
 ### 安装插件
 
 ```sh
-go install github.com/ncuhome/cato/cmd/protoc-gen-cato@latest
+go install github.com/NCUnix/cato/cmd/protoc-gen-cato@latest
 ```
 
 或者在本仓库内执行：
@@ -48,7 +48,7 @@ make install
 如果你的目标项目会引用 Cato 的运行时辅助包，还需要把模块依赖加进去：
 
 ```sh
-go get github.com/ncuhome/cato@latest
+go get github.com/NCUnix/cato@latest
 ```
 
 ### 让 `protoc` 能找到 Cato 的选项文件
@@ -222,7 +222,7 @@ config/templates/      代码生成模板
 
 ## 示例项目
 
-如果你想看更完整的使用方式，可以参考 [cato-example-bms](https://github.com/NCUHOME/cato-example-bms/tree/main/proto)。
+如果你想看更完整的使用方式，可以参考 [cato-example-bms](https://github.com/NCUnix/cato-example-bms/tree/main/proto)。
 
 ## 路线图
 
