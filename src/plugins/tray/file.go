@@ -6,8 +6,8 @@ import (
 
 	"google.golang.org/protobuf/compiler/protogen"
 
-	"github.com/ncuhome/cato/src/plugins/models"
-	"github.com/ncuhome/cato/src/plugins/utils"
+	"github.com/NCUnix/cato/src/plugins/models"
+	"github.com/NCUnix/cato/src/plugins/utils"
 )
 
 type FileTray struct {

@@ -1,7 +1,7 @@
 package packs
 
 import (
-	"github.com/ncuhome/cato/src/plugins/models"
+	"github.com/NCUnix/cato/src/plugins/models"
 )
 
 type TableColTmplPack struct {

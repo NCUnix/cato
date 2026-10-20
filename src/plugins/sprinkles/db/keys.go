@@ -3,10 +3,10 @@ package db
 import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/ncuhome/cato/generated"
-	"github.com/ncuhome/cato/src/plugins/common"
-	"github.com/ncuhome/cato/src/plugins/models"
-	"github.com/ncuhome/cato/src/plugins/sprinkles"
+	"github.com/NCUnix/cato/generated"
+	"github.com/NCUnix/cato/src/plugins/common"
+	"github.com/NCUnix/cato/src/plugins/models"
+	"github.com/NCUnix/cato/src/plugins/sprinkles"
 )
 
 func init() {

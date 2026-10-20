@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ncuhome/cato/src/plugins/models"
+	"github.com/NCUnix/cato/src/plugins/models"
 )
 
 type MessageTray struct {

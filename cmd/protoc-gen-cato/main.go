@@ -8,7 +8,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/ncuhome/cato/src"
+	"github.com/NCUnix/cato/src"
 )
 
 func main() {

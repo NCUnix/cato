@@ -3,7 +3,7 @@ package models
 import (
 	"strings"
 
-	"github.com/ncuhome/cato/generated"
+	"github.com/NCUnix/cato/generated"
 )
 
 type Field struct {

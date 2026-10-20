@@ -6,7 +6,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/ncuhome/cato/generated"
+	"github.com/NCUnix/cato/generated"
 )
 
 func GetGoPackageName(importPath string) string {

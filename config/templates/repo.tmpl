@@ -5,7 +5,7 @@ package {{.RepoPackageName}}
 import (
 	"context"
 
-	rdbx "github.com/ncuhome/cato/core/rdb"
+	rdbx "github.com/NCUnix/cato/core/rdb"
 
 	{{- if not .IsModelAnotherPackage}}
     {{.ModelPackageAlias}} "{{.ModelPackage}}"

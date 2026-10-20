@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package cato.http;
 
-option go_package = "github.com/ncuhome/cato/generated";
+option go_package = "github.com/NCUnix/cato/generated";
 
 
 
